@@ -7,7 +7,7 @@ A lot of studies are centered around Malaria, HIV and diarrheal disease. These a
 In order to run the project using the same requirement use these commands:
 
 Build docker image
-`docker build -t pubmed-KE-NLP .`
+`docker build -t pubmed-ke-nlp .`
 
 Run the Docker image
 `docker run -it -p 8888:8888 pubmed-ke-nlp:latest`
