@@ -4,7 +4,6 @@ ipython-genutils==0.2.0
 jupyter-nbextensions-configurator==0.4.0
 jupyterlab-server~=2.3
 jupyterlab-launcher==0.13.1
-jupyterlab-server==0.2.0
 matplotlib==3.2.1
 numpy==1.19.5
 pandas==0.25.3
