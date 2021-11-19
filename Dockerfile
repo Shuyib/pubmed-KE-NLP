@@ -1,5 +1,5 @@
 # Use latest Python runtime as a parent image
-FROM python:3.6.3-slim
+FROM python:3.7.5-slim
 
 # Meta-data
 LABEL maintainer="Shuyib" \
@@ -12,14 +12,10 @@ WORKDIR /app
 ENV PYTHONUNBUFFERED=TRUE
 
 # Copy the current directory contents into the container at /app
-COPY ["Pipfile", "Pipfile.lock", "*.csv, *.ipynb", "./"]
+COPY . /app
 
 # Install the required libraries
-RUN pip --no-cache-dir install pipenv
-
-# Install the required libraries
-RUN pipenv install --deploy --system && \
-    rm -rf /root/.cache
+RUN pip --no-cache-dir install -r /app/requirements.txt
 
 # Make port 8888 available to the world outside this container
 EXPOSE 8888
