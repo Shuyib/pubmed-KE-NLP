@@ -3,3 +3,11 @@ This is a Text mining and text summarization project from 1980 - 2019. The purpo
 
 We discovered:
 A lot of studies are centered around Malaria, HIV and diarrheal disease. These are the main causes of mortality in Kenya referencing the [CDC Kenya website](https://www.cdc.gov/globalhealth/countries/kenya/pdf/Kenya_Factsheet.pdf) at least from 2018. It was fascinating that whoever replicates this study can confirm this.
+
+In order to run the project using the same requirement use these commands:
+
+Build docker image
+`docker build -t pubmed-KE-NLP .`
+
+Run the Docker image
+`docker run -it -p 8888:8888 pubmed-ke-nlp:latest`
