@@ -14,7 +14,9 @@ Run the Docker image
 `docker run -it -p 8888:8888 pubmed-ke-nlp:latest`
 
 References:  
-* Bibcitation: Free Automatic Citation Maker. MLA, APA + more. (n.d.). Bibcitation. Retrieved November 28, 2021, from https://www.bibcitation.com/.   
+* Bibcitation: Free Automatic Citation Maker. MLA, APA + more. (n.d.). Bibcitation. Retrieved November 28, 2021, from https://www.bibcitation.com/. 
+* Mwangi, K. W., Mainye, N., Ouso, D. O., Esoh, K., Muraya, A. W., Mwangi, C. K., Naitore, C., Karega, P., Kibet-Rono, G., Musundi, S., Mutisya, J., Mwangi, E., Mgawe, C., Miruka, S., &#38; Kibet, C. K. (2021). Open science in Kenya: Where are we? Frontiers in Research Metrics and Analytics, 6. https://doi.org/10.3389/frma.2021.669675
+*   BioinfoNet. (n.d.). GitHub - BioinfoNet/Data-mining: Data mining to discover trends in Open Science in Kenya. GitHub. Retrieved April 19, 2022, from https://github.com/BioinfoNet/Data-mining
 * Chicago Python Users Group. (2017). Data Science Workflows using Docker Containers [Video]. In YouTube. https://youtu.be/oO8n3y23b6M.  
 * [Datacamp project reference](https://www.datacamp.com/projects/158).  
 * Grigorev, A. (2021). Machine Learning Bookcamp: Build a portfolio of real-life projects (pp. 34–45). Simon and Schuster.  
